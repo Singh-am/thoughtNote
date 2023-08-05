@@ -1,6 +1,6 @@
 const connectToMongo = require('./db');
 const express = require('express');
-
+//powershell -ExecutionPolicy Bypass -File C:\Users\kuami\AppData\Roaming\npm\nodemon.ps1
 connectToMongo();
 const app = express()
 const port = 3000
